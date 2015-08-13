@@ -1,0 +1,23 @@
+[
+  {
+    "id" : 1,
+    "description" : "To reply to all people on an email thread you do click which button?",
+    "imageA" : "http://techguystaging.com/files/computer-icon.png",
+    "imageB" : "http://techguystaging.com/files/computer-icon.png",
+    "imageC" : "http://techguystaging.com/files/computer-icon.png"
+  },
+  {
+    "id" : 2,
+    "description" : "To reply to only 1 person on an email thread you do click which button?",
+    "imageA" : "http://techguystaging.com/files/computer-icon.png",
+    "imageB" : "http://techguystaging.com/files/computer-icon.png",
+    "imageC" : "http://techguystaging.com/files/computer-icon.png"
+  },
+  {
+    "id" : 3,
+    "description" : "To send a new email what should you click first?",
+    "imageA" : "http://techguystaging.com/files/computer-icon.png",
+    "imageB" : "http://techguystaging.com/files/computer-icon.png",
+    "imageC" : "http://techguystaging.com/files/computer-icon.png"
+  }
+]

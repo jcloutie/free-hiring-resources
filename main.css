@@ -1,0 +1,81 @@
+
+h3 { 
+    color: #4cae4c; 
+}
+
+summary {
+    width: 150px;
+    font-weight: 600;
+}
+
+summary::-webkit-details-marker {
+    display: none
+}
+summary:after {
+    background: #337ab7; 
+    border-radius: 5px; 
+    content: "+"; 
+    color: #fff; 
+    float: left; 
+    font-size: 1.5em; 
+    font-weight: bold; 
+    margin: -5px 10px 0 0; 
+    padding: 0; 
+    text-align: center; 
+    width: 30px;
+    padding-bottom: 1px;
+}
+details[open] summary:after {
+    content: "-";
+}
+
+.exam {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+}
+.filters {
+    color: #337ab7;
+}
+
+.filters:hover{
+    cursor: pointer;
+}
+
+.sorting {
+    color: #333;
+    font-size: 13px;
+}
+
+.sorting-inner {
+    border-left: 4px solid gray;
+}
+
+.textDecoration {
+    text-decoration: underline;   
+}
+
+.launch-btn {
+    margin-right: -90px !important;
+    margin-left: 10px;
+}
+
+.form-control {
+    float: left;   
+}
+
+.step3 {
+    float: right;
+    margin-right: -75px;
+    margin-top: 35px;
+    color: #999;
+    font-weight: 300;
+}
+
+.block {
+    display: block !important;
+}
+
+.step4 {
+    text-align: center;
+    margin-top: 10%;   
+}

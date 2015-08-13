@@ -1,0 +1,15 @@
+<div class="modal-header">
+  <h4 class="modal-title" id="myModalLabel">Outlook Assessment - B01</h4>
+</div>
+<div ng-repeat="question in questions">
+    <div class="modal-body">
+        <h3>{{question.description}}</h3>
+        <p><input type="radio" name="b01" /><img class="pad-left-10" width="40px" src="{{question.imageA}}"></p>
+        <p><input type="radio" name="b01" /><img class="pad-left-10" width="40px" src="{{question.imageB}}"/></p>
+        <p><input type="radio" name="b01" /><img class="pad-left-10" width="40px" src="{{question.imageC}}"/></p>
+    </div>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary submit-exam" id="basic-outlook-submit">Submit Exam</button>
+</div>
+<script src="exam.js"></script>
